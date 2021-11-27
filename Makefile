@@ -28,4 +28,4 @@ grpcurl-aws:
 	@grpcurl \
   -import-path proto \
   -proto helloworld.proto \
-  test.cm-arai.com:443 helloworld.Greeter/SayHello
+  helloworld.test.arai.cm-arai.com:443 helloworld.Greeter/SayHello
